@@ -169,12 +169,10 @@
         <item name="android:fastScrollTextColor">@android:color/white</item>
     </style>
 
-    <style name="PopupMenuStyle" parent="@android:style/Widget.PopupMenu">
-        <item name="android:popupBackground">@android:color/white</item>
+    <style name="PopupMenuStyle" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
     </style>
 
-    <style name="PopupMenuStyleAppCompat" parent="Widget.AppCompat.PopupMenu">
-        <item name="android:popupBackground">@android:color/white</item>
+    <style name="PopupMenuStyleAppCompat" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
     </style>
 
     <style name="ContactsActionButtonStyle" parent="Widget.AppCompat.ActionButton">
