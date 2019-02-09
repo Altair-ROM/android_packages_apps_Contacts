@@ -87,6 +87,7 @@
         <item name="favorites_padding_bottom">0dip</item>
         <!-- Popup menu -->
         <item name="android:popupMenuStyle">@style/PopupMenuStyle</item>
+        <item name="android:contextPopupMenuStyle">@style/ContextPopupMenuStyle</item>
     </style>
 
     <style name="LaunchScreenTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -173,6 +174,10 @@
     </style>
 
     <style name="PopupMenuStyleAppCompat" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+    </style>
+
+    <style name="ContextPopupMenuStyle" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@android:color/white</item>
     </style>
 
     <style name="ContactsActionButtonStyle" parent="Widget.AppCompat.ActionButton">
